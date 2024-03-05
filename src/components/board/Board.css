@@ -1,0 +1,15 @@
+.game{
+  position: relative;
+
+}
+.board {
+  display: grid;
+
+  grid-template-columns: repeat(6,var(--size));
+  grid-template-rows: repeat(6,var(--size));
+  border-radius: 10px;
+  position: relative;
+  margin-top: 8rem;
+  overflow: hidden;
+  border: 10px solid #676752;
+}

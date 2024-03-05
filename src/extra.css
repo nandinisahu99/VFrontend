@@ -1,0 +1,71 @@
+video {
+    z-index: 0;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .video-body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  }
+  
+  
+  .login {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login1{
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .login2{
+    font-size: 22px;
+    color: white;
+  }
+  
+  .login3{
+    color: #b5a5da;
+  }
+  
+  .login4{
+    font-size: x-large;
+    color:beige;
+  }
+  
+  .loginh{
+    color: beige;
+  }
+  
+  
+  
+  .register {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .home {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .inside {
+    width: 20rem;
+  }
+  
+  .header {
+    background-color: aqua;
+  
+  }

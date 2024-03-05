@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Ubuntu:ital,wght@0,500;1,300&display=swap');
+
+:root{
+  background-color: black;
+}
+
+
+
+
+video {
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.video-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.login {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login1{
+  width: 30rem;
+  height: 30rem;
+}
+
+.login2{
+  font-size: 22px;
+  color: white;
+}
+
+.login3{
+  color: #b5a5da;
+}
+
+.login4{
+  font-size: x-large;
+  color:beige;
+}
+
+.loginh{
+  color: beige;
+}
+
+
+
+.register {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inside {
+  width: 20rem;
+}
+
+.headerButton {
+  width: 100px;
+  height: 50px;
+
+}
+
+.levelstart{
+  font-family: 'Anta','Ubuntu' ;
+  font-weight: 500;
+  font-size: 2rem;
+  width:24vm;
+  height:7vh;
+  background-color: #538495;
+  color:white;
+  z-index:2;
+  cursor:pointer;
+}
+
+button.levelstart{
+  position:absolute;
+  right:5.75vw;
+  bottom: 10vh;
+}
+
+.instruction{
+  color:white;
+  /* background-color: rgb(5, 5, 83); */
+  font-size: 25px;
+  font-family: 'Anta','Ubuntu'  ;
+  letter-spacing: 2px;
+}
+
+.ins{
+  font-size: xx-large;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #538495;
+}
+
+.timer{
+  width: 100px;
+  height:70px;
+  border-radius: 20%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  position:absolute;
+  margin-top: 1%;
+  left:47.5vw;
+  top:1vh;
+  z-index: 1;
+  color: white;
+}
+
+.score{
+  color:#538495;
+ 
+  font-size: 3rem;
+  z-index: 2;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 2%;
+  border: 4px solid white;
+  border-radius: 22px;
+  padding: 0rem 1rem;
+}
+.final{
+  color: white;
+  font-size: 3rem;
+  z-index: 2;
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 4%;
+}
+
+

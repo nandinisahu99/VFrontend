@@ -1,0 +1,102 @@
+/* .number{
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: var(--tile);
+  font-size: 50px;
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: left .4s ease-in-out, top .4s ease-in-out;
+}
+.number.correct{
+  background: var(--correct);
+}
+
+.number.slot--0{left: 0px; top: 0;}
+.number.slot--1{left: calc(var(--size)); top: 0;}
+.number.slot--2{left: calc(2 * var(--size)); top: 0;}
+.number.slot--3{left: calc(3 * var(--size)); top: 0;}
+.number.slot--4{left: 0; top: calc(var(--size));}
+.number.slot--5{left: calc(var(--size)); top: calc(var(--size));}
+.number.slot--6{left: calc(2 * var(--size) ); top: calc(var(--size));}
+.number.slot--7{left: calc(3 * var(--size)); top: calc(var(--size));}
+.number.slot--8{left: 0; top: calc(2 * var(--size) );}
+.number.slot--9{left: calc(var(--size)); top: calc(2 * var(--size) );}
+.number.slot--10{left: calc(2 * var(--size) ); top: calc(2 * var(--size) );}
+.number.slot--11{left: calc(3 * var(--size)); top: calc(2 * var(--size) );}
+.number.slot--12{left: 0; top: calc(3 * var(--size));}
+.number.slot--13{left: calc(var(--size)); top: calc(3 * var(--size));}
+.number.slot--14{left: calc(2 * var(--size) ); top: calc(3 * var(--size));}
+.number.slot--15{left: calc(3 * var(--size)); top: calc(3 * var(--size));}
+.number.disabled{pointer-events: none; background-color:transparent;} */
+
+
+.number {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: var(--tile);
+  font-size: 40px; /* Adjust font size as needed for the larger grid */
+  color: black;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: left .4s ease-in-out, top .4s ease-in-out;
+}
+
+.number.correct {
+  background: var(--correct);
+}
+
+.number.slot--0 { left: 0; top: 0; }
+.number.slot--1 { left: calc(var(--size)); top: 0; }
+.number.slot--2 { left: calc(2 * var(--size)); top: 0; }
+.number.slot--3 { left: calc(3 * var(--size)); top: 0; }
+.number.slot--4 { left: calc(4 * var(--size)); top: 0; }
+.number.slot--5 { left: calc(5 * var(--size)); top: 0; }
+
+.number.slot--6 { left: 0; top: calc(var(--size)); }
+.number.slot--7 { left: calc(var(--size)); top: calc(var(--size)); }
+.number.slot--8 { left: calc(2 * var(--size)); top: calc(var(--size)); }
+.number.slot--9 { left: calc(3 * var(--size)); top: calc(var(--size)); }
+.number.slot--10 { left: calc(4 * var(--size)); top: calc(var(--size)); }
+.number.slot--11 { left: calc(5 * var(--size)); top: calc(var(--size)); }
+
+.number.slot--12 { left: 0; top: calc(2 * var(--size)); }
+.number.slot--13 { left: calc(var(--size)); top: calc(2 * var(--size)); }
+.number.slot--14 { left: calc(2 * var(--size)); top: calc(2 * var(--size)); }
+.number.slot--15 { left: calc(3 * var(--size)); top: calc(2 * var(--size)); }
+.number.slot--16 { left: calc(4 * var(--size)); top: calc(2 * var(--size)); }
+.number.slot--17 { left: calc(5 * var(--size)); top: calc(2 * var(--size)); }
+
+.number.slot--18 { left: 0; top: calc(3 * var(--size)); }
+.number.slot--19 { left: calc(var(--size)); top: calc(3 * var(--size)); }
+.number.slot--20 { left: calc(2 * var(--size)); top: calc(3 * var(--size)); }
+.number.slot--21 { left: calc(3 * var(--size)); top: calc(3 * var(--size)); }
+.number.slot--22 { left: calc(4 * var(--size)); top: calc(3 * var(--size)); }
+.number.slot--23 { left: calc(5 * var(--size)); top: calc(3 * var(--size)); }
+
+.number.slot--24 { left: 0; top: calc(4 * var(--size)); }
+.number.slot--25 { left: calc(var(--size)); top: calc(4 * var(--size)); }
+.number.slot--26 { left: calc(2 * var(--size)); top: calc(4 * var(--size)); }
+.number.slot--27 { left: calc(3 * var(--size)); top: calc(4 * var(--size)); }
+.number.slot--28 { left: calc(4 * var(--size)); top: calc(4 * var(--size)); }
+.number.slot--29 { left: calc(5 * var(--size)); top: calc(4 * var(--size)); }
+
+.number.slot--30 { left: 0; top: calc(5 * var(--size)); }
+.number.slot--31 { left: calc(var(--size)); top: calc(5 * var(--size)); }
+.number.slot--32 { left: calc(2 * var(--size)); top: calc(5 * var(--size)); }
+.number.slot--33 { left: calc(3 * var(--size)); top: calc(5 * var(--size)); }
+.number.slot--34 { left: calc(4 * var(--size)); top: calc(5 * var(--size)); }
+.number.slot--35 { left: calc(5 * var(--size)); top: calc(5 * var(--size)); }
+
+.number.disabled {
+  pointer-events: none;
+  background-color: transparent;
+}
