@@ -151,5 +151,11 @@ button.levelstart{
   margin-left: 42%;
   margin-top: 4%;
 }
-
+.bg-vid{
+  position: fixed;
+  height:100%;
+  width:100%;
+  object-fit:cover;
+  z-index: 0;
+}
 

@@ -10,7 +10,7 @@ function Layout({toggle,setToggle,credentials,setCredentials}) {
         <>
         {
             (toggle)?<><div className='video-container'>
-            <video width="100%" height="auto" autoPlay loop muted>
+            <video autoPlay loop muted className='bg-vid'>
                 <source src={video} type="video/mp4" />
             </video>
         </div>
